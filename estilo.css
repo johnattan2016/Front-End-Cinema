@@ -1,0 +1,59 @@
+body {
+	font: 18px/1.4 arial, sans-serif;
+	background: #ddd;
+	color: #333;
+	}
+
+.tudo {
+	width: 100%;
+	background: #fff;
+	}
+	
+.topo {
+	width:100%;
+	height: auto;
+
+	}
+
+.topo h1  {
+	font-size: 36px;
+	margin: 0px 5% 2px 1%;
+	text-align: left;
+	}
+
+.topo a  {
+	color: #900;
+	text-decoration: none;
+	}
+
+.topo h2 {
+	font-size: 20px;
+	margin: 0px 5% 4px 1%;
+	text-align: left;
+	}
+
+nav { 
+	width: 100%;
+	background: #900; 
+}
+
+
+.topo nav a {
+	display: inline;
+	float:left;
+	text-decoration: none;	
+	text-transform:uppercase;
+	text-align: center;
+	border-right: 1px solid #fff;	
+	padding: 10px 20px;
+	color: #fff;
+	background:#900;
+	font-size: 14px;
+	font-weight: bold;
+
+	}
+
+.topo nav a:hover, .home .corrente {
+	color: #900;
+	background: rgb(225, 185, 185);	
+	}
